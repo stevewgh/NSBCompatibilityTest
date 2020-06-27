@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Endpoint4712": {
+      "commandName": "Executable",
+      "executablePath": ".\\NServiceBus.Host.exe"
+    }
+  }
+}
