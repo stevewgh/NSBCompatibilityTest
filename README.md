@@ -34,6 +34,7 @@ Checking the compatibility between NSB 4.7.12 and NSB 7.3.0 when message subscri
 ## Instructions
 
 1. You'll need a local SQL Server database called Nservicebus
-2. Run Endpoint4712\bin\Debug\net48\NServiceBus.Host.exe
-3. Run Endpoint730\bin\Debug\net48\Endpoint730.exe
-4. Run TestConsole\bin\Debug\net48\TestConsole.exe (this will send a command to the Endpoint4712 endpoint and then close)
+2. Run `Endpoint4712\bin\Debug\net48\NServiceBus.Host.exe`
+3. Run `Endpoint730\bin\Debug\net48\Endpoint730.exe`
+4. Run `TestConsole\bin\Debug\net48\TestConsole.exe` (this will send a command to the Endpoint4712 endpoint and then close)
+5. Observe that both endpoints are handling commands, events and are processing deferred commands which originated from the other endpoint.
